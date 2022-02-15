@@ -1,10 +1,15 @@
 import classes from "./Ingredient.module.css";
+import CloseButton from 'react-bootstrap/CloseButton';
+import Card from "../ui/Card";
 
 function Ingredient() {
     return (
         <li>
-            <div className={classes.ingredient}>New Ingredient</div>
-            <button>delete</button>
+            <Card>
+                <div className={classes.ingredient}>New Ingredient</div>
+                <CloseButton/>
+            </Card>
+            
         </li>
     );
 }
