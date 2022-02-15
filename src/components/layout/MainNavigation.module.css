@@ -1,0 +1,54 @@
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 13rem; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #e1880a; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 1rem; /* Place content 2rem from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
+.sidenav li {
+    border-radius: 25px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.sidenav a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    color: rgb(139, 67, 0);
+}
+
+.border {
+    background-color: #777777ab;
+    border-radius: 25px;
+    width: fit-content;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}

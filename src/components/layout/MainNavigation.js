@@ -4,15 +4,21 @@ import classes from "./MainNavigation.module.css";
 
 function MainNavigation() {
     return (
-        <header className={classes.header}>
-            <div className={classes.logo}>React Meetups</div>
+        <header className={classes.sidenav}>
+            <div className={classes.logo}>
+                <u>Pantry</u> <u>Partner</u>
+            </div>
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">Find Recipes</Link>
+                        <div className={classes.border}>
+                            <Link to="/">Find Recipes</Link>
+                        </div>
                     </li>
                     <li>
-                        <Link to="/filter">Apply Filter</Link>
+                        <div className={classes.border}>
+                            <Link to="/filter">Set Filter</Link>
+                        </div>
                     </li>
                 </ul>
             </nav>

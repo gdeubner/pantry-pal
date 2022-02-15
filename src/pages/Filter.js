@@ -1,7 +1,10 @@
+import IngredientFilter from "../components/RecipeFilters/IngredientFilter";
+
 function FilterPage(props) {
     return (
         <section>
-            <h1>Filter</h1>
+            <h1>What do you have on hand?</h1>
+            <IngredientFilter />
         </section>
     );
 }

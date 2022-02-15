@@ -3,7 +3,7 @@ import React from "react";
 
 import FilterPage from "./pages/Filter";
 import ResultsPage from "./pages/Results";
-import Layout from "./components/layout/layout";
+import Layout from "./components/layout/Layout";
 
 function App() {
     return (
