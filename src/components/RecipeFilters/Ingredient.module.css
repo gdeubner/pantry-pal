@@ -12,10 +12,4 @@ div {
 }
 
 .closeButton {
-    background-color: grey;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    text-align: center;
 }

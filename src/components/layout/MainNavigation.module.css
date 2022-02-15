@@ -13,41 +13,42 @@
 }
 
 .sidenav ul {
+    display: block;
     list-style: none;
-    margin: 0;
+    margin-top: 2rem;
     padding: 0;
-    align-content: center;
+    text-align: center;
 }
 
 .sidenav li {
     border-radius: 25px;
     display: block;
     margin-bottom: 1rem;
+    height: fit-content;
 }
 
 .sidenav a {
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
+    height: fit-content;
+    background-color: #777777ab;
+    border-radius: 25px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .sidenav a:hover {
     color: rgb(139, 67, 0);
 }
 
-.border {
-    background-color: #777777ab;
-    border-radius: 25px;
-    width: fit-content;
-    margin: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
 .logo {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-bottom: 2rem;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
     font-size: 1.5rem;
     color: white;
     font-weight: bold;

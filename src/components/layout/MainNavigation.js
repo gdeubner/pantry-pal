@@ -11,14 +11,10 @@ function MainNavigation() {
             <nav>
                 <ul>
                     <li>
-                        <div className={classes.border}>
-                            <Link to="/">Find Recipes</Link>
-                        </div>
+                        <Link to="/">Find Recipes</Link>
                     </li>
                     <li>
-                        <div className={classes.border}>
-                            <Link to="/filter">Set Filter</Link>
-                        </div>
+                        <Link to="/filter">Set Filter</Link>
                     </li>
                 </ul>
             </nav>
