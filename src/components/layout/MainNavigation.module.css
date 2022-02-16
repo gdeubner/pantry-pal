@@ -1,15 +1,12 @@
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 13rem; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    height: 100vh; /* 100% Full-height */
+    width: 14rem; /* 0 width - change this with JavaScript */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #e1880a; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 1rem; /* Place content 2rem from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    overflow-y: hidden;
 }
 
 .sidenav ul {
@@ -23,19 +20,34 @@
 .sidenav li {
     border-radius: 25px;
     display: block;
-    margin-bottom: 1rem;
-    height: fit-content;
+    margin-bottom: 3.5rem;
 }
 
 .sidenav a {
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
-    height: fit-content;
     background-color: #777777ab;
     border-radius: 25px;
     padding-left: 1rem;
     padding-right: 1rem;
+    display: block;
+    width: 11rem;
+    margin: auto;
+}
+
+.breadIndent {
+    color: #77777700;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #777777ab;
+    border-radius: 25px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: block;
+    width: 11rem;
+    margin: auto;
+    cursor: default;
 }
 
 .sidenav a:hover {
@@ -47,9 +59,16 @@
     text-align: center;
     display: block;
     margin: auto;
+    margin-top: 2.5rem;
     width: fit-content;
     height: fit-content;
     font-size: 1.5rem;
     color: white;
     font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    display: block;
+    margin: auto;
 }

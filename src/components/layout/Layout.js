@@ -1,12 +1,13 @@
 import MainNavigation from "./MainNavigation";
 import classes from "./Layout.module.css";
+import { Stack } from "react-bootstrap";
 
 function Layout(props) {
     return (
-        <div>
+        <Stack direction="horizontal">
             <MainNavigation />
             <main>{props.children}</main>
-        </div>
+        </Stack>
     );
 }
 

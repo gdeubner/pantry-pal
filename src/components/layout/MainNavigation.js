@@ -16,6 +16,11 @@ function MainNavigation() {
                     <li>
                         <Link to="/filter">Set Filter</Link>
                     </li>
+                    <li className={classes.breadIndent}>.</li>
+                    <li className={classes.breadIndent}>.</li>
+                    <li className={classes.breadIndent}>.</li>
+                    <li className={classes.breadIndent}>.</li>
+                    <li className={classes.breadIndent}>.</li>
                 </ul>
             </nav>
         </header>

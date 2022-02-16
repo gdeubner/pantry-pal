@@ -1,19 +1,22 @@
 import Ingredient from "./Ingredient";
 import classes from "./IngredientFilter.module.css";
+import Card from "react-bootstrap/Card";
+import { ListGroup, Stack } from "react-bootstrap";
+import React from "react";
 
 function IngredientFilter() {
     return (
-        <div>
+        <Stack gap={2} className="col-md-5 mx-auto">
+            <div>Enter the food you have on hand</div>
+
             <form className={classes.ingredientForm}>
-                <div>Enter the food you have on hand</div>
                 <input type="text" id="new_ingredient"></input>
+                <button className="btn btn-light">Add</button>
             </form>
-            <ul>
-                <Ingredient />
-                <Ingredient />
-                <Ingredient />
-            </ul>
-        </div>
+            <div className={classes.ingredientFormList}>
+                <ListGroup className={classes.ingredientFormList}></ListGroup>
+            </div>
+        </Stack>
     );
 }
 

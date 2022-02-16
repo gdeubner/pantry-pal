@@ -1,16 +1,17 @@
 import classes from "./Ingredient.module.css";
-import CloseButton from 'react-bootstrap/CloseButton';
+import CloseButton from "react-bootstrap/CloseButton";
 import Card from "../ui/Card";
+import { ListGroup, ListGroupItem } from "react-bootstrap";
 
 function Ingredient() {
     return (
-        <li>
-            <Card>
-                <div className={classes.ingredient}>New Ingredient</div>
-                <CloseButton/>
-            </Card>
-            
-        </li>
+        <ListGroup.Item
+            as="li"
+            className="d-flex justify-content-between align-items-start"
+        >
+            <div className="fw-bold">Ingredient</div>
+            <CloseButton />
+        </ListGroup.Item>
     );
 }
 
